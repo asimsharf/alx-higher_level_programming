@@ -11,6 +11,6 @@ else:
 if last > 5:
     print("{:s} {:d} is {:d} {:s}".format(msg1, number, last, msg2))
 elif last == 0:
-    print("Last digit of {:d} is {:d} and is 0".format(number, last))
+    print("{:s} {:d} is {:d} and is 0".format(msg1, number, last))
 else:
     print("{:s} {:d} is {:d} {:s}".format(msg1, number, last, msg3))
