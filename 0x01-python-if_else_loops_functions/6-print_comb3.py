@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-for i in range(1, 90):
-    if i != 89:
-        print("{:02d}, ".format(i), end="")
-    else:
-        print("{:02d}".format(i))
+for i in range(0, 10):
+    for j in range(0, 10):
+        if i < j and i != 8:
+            print("{}{}, ".format(i, j), end="")
+        elif i < j and i == 8:
+            print("{}{}".format(i, j))
