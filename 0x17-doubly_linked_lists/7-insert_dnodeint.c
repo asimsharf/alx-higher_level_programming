@@ -2,8 +2,9 @@
 
 /**
  * get_dnodeint_at_index - returns the nth node of a dlistint_t linked list
- * @head: pointer to head of list
- * @index: index of node to return
+ * @h: pointer to head of list
+ * @n: value of new node to add
+ * @idx: index of new node
  * Return: nth node of a dlistint_t linked list
  */
 
